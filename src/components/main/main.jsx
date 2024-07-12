@@ -58,17 +58,6 @@ const Main = () => {
                     <div className="ButtonSocial-Container col-1">
                         <ul class="example-2">
                             <li class="icon-content">
-                                <a
-                                    href="https://linkedin.com/"
-                                    aria-label="LinkedIn"
-                                    data-social="linkedin"
-                                >
-                                    <div class="filled"></div>
-                                    <img src="/path/to/linkedin-image.png" alt="LinkedIn" class="ImgSocialButton"/>
-                                </a>
-                                <div class="tooltip">LinkedIn</div>
-                            </li>
-                            <li class="icon-content">
                                 <a href="https://www.github.com/" aria-label="GitHub" data-social="github">
                                     <div class="filled"></div>
                                     <svg
@@ -111,17 +100,6 @@ const Main = () => {
                                     </svg>
                                 </a>
                                 <div class="tooltip">Instagram</div>
-                            </li>
-                            <li class="icon-content">
-                                <a
-                                    href="https://linkedin.com/"
-                                    aria-label="LinkedIn"
-                                    data-social="linkedin"
-                                >
-                                    <div class="filled"></div>
-                                    <img src="/path/to/linkedin-image.png" alt="LinkedIn" class="ImgSocialButton"/>
-                                </a>
-                                <div class="tooltip">LinkedIn</div>
                             </li>
                         </ul>
                     </div>
