@@ -1,0 +1,5 @@
+-Acomodar entorno Contenedor general, para que no se genere nunca scroll horizontal.
+
+
+-social button
+-display de conteinido, coherencia logo y social butons

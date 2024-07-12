@@ -1,0 +1,14 @@
+.container-fluid{
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100vw;
+  height: auto;
+}
+
+.container {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100vw;
+  height: auto;
+}
+
