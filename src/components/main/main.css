@@ -1,12 +1,12 @@
-.s1-Container{
-    background-color: #3F50C8;
-    height: min-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 95vh;
+.s1-Container {
+  background-image: linear-gradient(to bottom, #3F50C8 85%, #828282);
+  background-size: 100% 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 95vh;
 }
-
 
 /* TITLE MAIN */
 
@@ -108,9 +108,16 @@ ul {
   height: 100%;
 }
 
-.example-2 .icon-content a[data-social="linkedin"] .filled,
-.example-2 .icon-content a[data-social="linkedin"] ~ .tooltip {
-  background-color: #0274b3;
+.example-2 .icon-content a[data-social="whatsapp"] .filled,
+.example-2 .icon-content a[data-social="whatsapp"] ~ .tooltip {
+  background: linear-gradient(
+    45deg,
+    #128c7e,
+    #128c7e,
+    #0b8045,
+    #0b8045,
+    #0b8045
+  );
 }
 
 .example-2 .icon-content a[data-social="github"] .filled,
