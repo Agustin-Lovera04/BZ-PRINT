@@ -1,6 +1,7 @@
 .quienesSomos-Container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-image: url('/images/RecursoNº1.JPG');
     background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
     background-position: center; /* Centra la imagen */
@@ -24,4 +25,28 @@
     -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: white;
     font-size: 6rem;
+}
+
+/* CONTENT */
+.sec2QuienesSomos-Container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.iframeQuienesSomos{
+  width: auto !important;
+  height: 80% !important;
+}
+
+.pQuienesSomos{
+  color: white;
+  font-size: 2rem;
+}
+
+.custom-divider {
+  border: 0;
+  height: 2px; /* Ajusta el grosor según tu preferencia */
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  margin: 20px 0; /* Ajusta el margen superior e inferior según tu preferencia */
 }
