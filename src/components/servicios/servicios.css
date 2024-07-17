@@ -1,0 +1,42 @@
+.servicios-Container {
+    background-color: #3F50C8;
+    background-size: 100% 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 95vh;
+  }
+
+  /* TITLE */
+  .TitleServicios-Content{
+    color: white;
+    font-style: italic;
+    font-size: 6rem;
+}
+
+/* CARDS */
+.cardsServicios-Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card{
+    width: 18rem;
+}
+
+.card-img{
+    height: 12rem;
+}
+
+
+/* SUBTITLE */
+.subTitleServicios1-Content{
+    font-size: 4rem;
+}
+
+.subTitleServicios2-Content{
+    background-color:gray;
+    font-size: 4rem;
+    color:#3F50C8;
+}

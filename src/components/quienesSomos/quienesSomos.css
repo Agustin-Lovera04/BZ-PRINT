@@ -22,7 +22,7 @@
 .TitleQuienesSomos2-Content{
     font-style: italic;
     color: transparent;
-    -webkit-text-stroke: 2px;
+    -webkit-text-stroke: 3px;
     -webkit-text-stroke-color: white;
     font-size: 6rem;
 }

@@ -3,6 +3,8 @@ import NavBar from '../navbar/navbar';
 import './main.css';
 import LogoBZ from '/images/BZPrint-Logo.png'
 import QuienesSomos from '../quienesSomos/quienesSomos';
+import Servicios from '../servicios/servicios';
+import Envios from '../envios/envios';
 
 const Main = () => {
         /*   const mainRef = useRef(null);
@@ -114,6 +116,8 @@ const Main = () => {
                 </div>
                 
                 <QuienesSomos />
+                <Servicios />
+                <Envios />
             </div>
         </>
     );

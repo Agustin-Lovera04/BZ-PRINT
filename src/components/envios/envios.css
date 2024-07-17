@@ -1,0 +1,59 @@
+.envios-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('/images/RecursoNº2.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* La imagen de fondo permanece fija al hacer scroll */
+    background-repeat: no-repeat; /* La imagen no se repite */
+    height: auto;
+    min-height: 95vh;
+  }
+
+  /* TITLE */
+  .titleEnvios-Content{
+    font-style: italic;
+    color: transparent;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: white;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  /* CONTENT SEC 2 */
+  .envios-Content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .pEnvios{
+    color: white;
+    font-size: 2rem;
+  }
+
+  .imgEnvios-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgEnvios{
+    width: min-content;
+    height: min-content;
+  }
+  .subTitleEnvios{
+    color: white;
+    font-style: italic;
+    font-size: 3em;
+  }
+  .custom-divider {
+    border: 0;
+    height: 2px; /* Ajusta el grosor según tu preferencia */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    margin: 20px 0; /* Ajusta el margen superior e inferior según tu preferencia */
+  }
+  

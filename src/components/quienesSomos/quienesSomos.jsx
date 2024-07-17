@@ -8,7 +8,9 @@ const QuienesSomos = () => {
                 <div className="sec2QuienesSomos-Container">
                     <iframe src="https://www.instagram.com/p/C8pyoc3xAWc/" width="280" height="505" frameborder="0" scrolling="no" allowtransparency="true" className='iframeQuienesSomos col-6'></iframe>
                     <hr className='custom-divider'/>
-                    <p className='pQuienesSomos col-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum sunt optio deleniti porro doloribus unde magni ex! Ullam itaque sit quibusdam amet quae at quas ipsa laboriosam obcaecati, fugiat harum.</p>
+                    <p className='pQuienesSomos col-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum sunt optio deleniti porro doloribus unde magni ex! Ullam itaque sit quibusdam amet quae at quas ipsa laboriosam obcaecati, fugiat harum.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dignissimos dolores eos id praesentium molestias recusandae eius voluptatum itaque eaque? Consequatur omnis excepturi maiores quidem doloremque! Qui placeat consequatur dolorem.
+                    </p>
                 </div>
             </div>
         </>

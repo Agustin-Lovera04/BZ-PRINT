@@ -1,5 +1,5 @@
 .s1-Container {
-  background-image: linear-gradient(to bottom, #3F50C8 85%, #828282);
+  background-color: #3F50C8;
   background-size: 100% 100%;
   height: min-content;
   display: flex;
