@@ -5,6 +5,7 @@ import LogoBZ from '/images/BZPrint-Logo.png'
 import QuienesSomos from '../quienesSomos/quienesSomos';
 import Servicios from '../servicios/servicios';
 import Envios from '../envios/envios';
+import Contacto from '../contacto/contacto';
 
 const Main = () => {
         /*   const mainRef = useRef(null);
@@ -118,6 +119,7 @@ const Main = () => {
                 <QuienesSomos />
                 <Servicios />
                 <Envios />
+                <Contacto />
             </div>
         </>
     );
