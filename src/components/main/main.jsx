@@ -6,6 +6,7 @@ import QuienesSomos from '../quienesSomos/quienesSomos';
 import Servicios from '../servicios/servicios';
 import Envios from '../envios/envios';
 import Contacto from '../contacto/contacto';
+import PreguntasFrecuentes from '../pregFrec/pregFrec';
 
 const Main = () => {
         /*   const mainRef = useRef(null);
@@ -119,6 +120,7 @@ const Main = () => {
                 <QuienesSomos />
                 <Servicios />
                 <Envios />
+                <PreguntasFrecuentes />
                 <Contacto />
             </div>
         </>
