@@ -1,0 +1,40 @@
+.clientes-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('/images/RecursoNº2.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* La imagen de fondo permanece fija al hacer scroll */
+    background-repeat: no-repeat; /* La imagen no se repite */
+    height: auto;
+    min-height: 95vh;
+  }
+
+    /* TITLE */
+    .titleClientes{
+        font-style: italic;
+        color: transparent;
+        -webkit-text-stroke: 3px;
+        -webkit-text-stroke-color: white;
+        font-size: 6rem;
+        display: flex;
+        justify-content: center;
+      }
+    
+
+      /* CARROUSEL */
+
+      .carrouselClientes{
+        height: 300px;
+        width: 900px;
+        background-color: lightgray;
+        margin: 100px;
+        opacity: .5;
+      }
+
+      .carrouselClientes-Content{
+        opacity: 1;
+        background: none;
+      }

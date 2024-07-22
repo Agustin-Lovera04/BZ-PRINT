@@ -1,7 +1,12 @@
 -social button
 -display de conteinido, coherencia logo y social butons
 
--https://www.npmjs.com/package/react-instagram-embed
-
-
 -NO SE VE EL DIVISOR EN ENVIOS
+-COLOCAR UN ESTILO GENERAL PARA LOS TITULOS CSS, ECONOMIZAR CODIGO
+
+
+
+importar  {  InstagramEmbed  }  de  'react-social-media-embed' ;
+< div  style = { {  display : 'flex' ,  justifyContent : 'center'  } } > 
+  < InstagramEmbed  url = "https://www.instagram.com/p/CUbHfhpswxt/"  width = { 328 }  / > 
+< / div >
