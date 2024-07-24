@@ -8,7 +8,7 @@ const QuienesSomos = () => {
                 <h1><span className="TitleQuienesSomos-Content fw-bold col-12">¿QUIENES </span><span className="TitleQuienesSomos2-Content fw-bold">SOMOS?</span></h1>
                 <div className="sec2QuienesSomos-Container">
                     < div className='iframeQuienesSomos'>
-                        < InstagramEmbed url="https://www.instagram.com/p/CUbHfhpswxt/" />
+                        < InstagramEmbed url="https://www.instagram.com/p/C8pyoc3xAWc/" />
                     </div>
                         <hr className='custom-divider' />
                         <p className='pQuienesSomos col-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum sunt optio deleniti porro doloribus unde magni ex! Ullam itaque sit quibusdam amet quae at quas ipsa laboriosam obcaecati, fugiat harum.

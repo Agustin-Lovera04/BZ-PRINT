@@ -12,7 +12,7 @@ const Envios = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam saepe voluptate dolore esse provident. Repudiandae, culpa dignissimos tempore aperiam delectus fugit eaque quis alias quidem nesciunt minima at excepturi perspiciatis.
                         </p>
                     </div>
-                    <hr className='custom-divider col-1'/>
+                    <div className="vertical-divider col-1"></div>
                     <div className="imgEnvios-Container col-6">
                         <img src={EnviosIMG} alt="" className='imgEnvios'/>
                         <h2 className='subTitleEnvios fw-bold'>ENVIOS AL INSTANTE</h2>
