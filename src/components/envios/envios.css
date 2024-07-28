@@ -1,14 +1,14 @@
 .envios-Container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url('/images/RecursoNº2.jpg');
-    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
-    background-position: center; /* Centra la imagen */
-    background-attachment: fixed; /* La imagen de fondo permanece fija al hacer scroll */
-    background-repeat: no-repeat; /* La imagen no se repite */
-    height: auto;
-    min-height: 95vh;
+  background-image: url('/images/RecursoNº2.png');
+  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+  /* background-position: bottom; */ /* Centra la imagen */
+  /* background-attachment: fixed; */ /* La imagen de fondo permanece fija al hacer scroll */
+  background-repeat: no-repeat; /* La imagen no se repite */
+  height: auto;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
   }
 
   /* TITLE */

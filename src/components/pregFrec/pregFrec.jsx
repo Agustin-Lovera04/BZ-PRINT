@@ -11,7 +11,7 @@ const PreguntasFrecuentes = () => {
                     <h3>PREGUNTA</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex placeat provident labore tempore porro, illo recusandae neque natus maxime, et, minus itaque? Nesciunt deserunt, ipsam aut nobis temporibus fugiat ad!</p>
                 </div>
-                <div className="box">
+                <div className="box box-lft">
                     <h3>PREGUNTA</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex placeat provident labore tempore porro, illo recusandae neque natus maxime, et, minus itaque? Nesciunt deserunt, ipsam aut nobis temporibus fugiat ad!</p>
                 </div>
@@ -19,7 +19,7 @@ const PreguntasFrecuentes = () => {
                     <h3>PREGUNTA</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex placeat provident labore tempore porro, illo recusandae neque natus maxime, et, minus itaque? Nesciunt deserunt, ipsam aut nobis temporibus fugiat ad!</p>
                 </div>
-                <div className="box">
+                <div className="box box-lft">
                     <h3>PREGUNTA</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex placeat provident labore tempore porro, illo recusandae neque natus maxime, et, minus itaque? Nesciunt deserunt, ipsam aut nobis temporibus fugiat ad!</p>
                 </div>

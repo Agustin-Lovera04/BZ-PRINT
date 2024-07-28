@@ -1,10 +1,13 @@
 .servicios-Container {
-    background-color: #3F50C8;
-    background-size: 100% 100%;
-    height: min-content;
+    background-image: url('/images/FONDO-INTERMEDIO.png');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    /* background-position: bottom; */ /* Centra la imagen */
+    /* background-attachment: fixed; */ /* La imagen de fondo permanece fija al hacer scroll */
+    background-repeat: no-repeat; /* La imagen no se repite */
+    height: auto;
+    min-height: 95vh;
     display: flex;
     flex-direction: column;
-    min-height: 95vh;
   }
 
   /* TITLE */

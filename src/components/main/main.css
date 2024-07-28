@@ -1,9 +1,21 @@
-.s1-Container {
+/* .s1-Container {
   background-color: #3F50C8;
   height: min-content;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-height: 95vh;
+} */
+.s1-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url('/images/FONDO.png');
+  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+  background-position: bottom; /* Centra la imagen */
+  /* background-attachment: fixed; */ /* La imagen de fondo permanece fija al hacer scroll */
+  background-repeat: no-repeat; /* La imagen no se repite */
+  height: auto;
   min-height: 95vh;
 }
 
@@ -149,4 +161,5 @@ ul {
     width: 50vw;
     height: 20vh;
     padding: 1%;
+    margin: 2%;
 }
