@@ -1,18 +1,23 @@
 .pregFrec-Container {
-    background-color: #3F50C8;
-    height: min-content;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 95vh;
+  background-image: url('/images/FONDO-INTERMEDIO.png');
+  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+  /* background-position: bottom; */ /* Centra la imagen */
+  /* background-attachment: fixed; */ /* La imagen de fondo permanece fija al hacer scroll */
+  background-repeat: no-repeat; /* La imagen no se repite */
+  height: auto;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
   }
 
   .titlePregFrec{
+    font-style: italic;
+    color: transparent;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: white;
+    font-size: 5rem;
     display: flex;
     justify-content: center;
-    color: white;
-    font-style: italic;
-    font-size: 5rem;
   }
   
 .subBox{

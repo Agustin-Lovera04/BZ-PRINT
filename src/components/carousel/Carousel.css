@@ -1,0 +1,36 @@
+.carousel-item {
+    height: 65vh;
+    padding: 5%;
+  }
+  
+  
+  .carousel-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 5%;
+  }
+.imgSlide-Container{
+  width: 70%;
+  height: 70%;
+}
+  .imgUser-Slide{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    object-position: center;
+  }
+  .textSlide-Container{
+    width: 100%;
+    height: 100%;
+    align-content: center;
+  }
+
+  .titleSlide{
+    font: 3rem;
+  }
+  .pSlide{
+    font-size: 1.3rem;
+  }

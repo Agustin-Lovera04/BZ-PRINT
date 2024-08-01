@@ -12,9 +12,13 @@
 
   /* TITLE */
   .TitleServicios-Content{
-    color: white;
     font-style: italic;
+    color: transparent;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: white;
     font-size: 6rem;
+    display: flex;
+    justify-content: center;
 }
 
 /* CARDS */
