@@ -11,37 +11,37 @@ const CarouselComponent = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active" data-bs-interval="5000">
-  
+
           <div className="carousel-content">
-            <div className="imgSlide-Container">
-            <img src={user} alt="" className='imgUser-Slide'/>
+            <div className="text-ImgSlide-Container">
+              <div className="imgSlide-Container">
+                <img src={user} alt="" className='imgUser-Slide' />
+              </div>
+                <h2 className="titleSlide">Nombre Persona</h2>
             </div>
-            <div className="textSlide-Container">
-            <h2 className="titleSlide">Nombre Persona</h2>
-            <p className='pSlide'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolor, repudiandae consequatur, laborum ea quod accusantium sapiente et ipsa laboriosam, quae necessitatibus assumenda ad magnam harum. Eveniet enim accusamus nostrum?</p>
-            </div>
+            <p className='pSlide'><span className='comillaSlide'>"</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolor, repudiandae consequatur, laborum ea quod accusantium sapiente et ipsa laboriosam, quae necessitatibus assumenda ad magnam harum. Eveniet enim accusamus nostrum?<span className='comillaSlide'>"</span></p>
           </div>
         </div>
         <div className="carousel-item" data-bs-interval="5000">
           <div className="carousel-content">
-            <div className="imgSlide-Container">
-          <img src={user} alt="" className='imgUser-Slide'/>
+            <div className="text-ImgSlide-Container">
+              <div className="imgSlide-Container">
+                <img src={user} alt="" className='imgUser-Slide' />
+              </div>
+                <h2 className="titleSlide">Nombre Persona</h2>
             </div>
-            <div className="textSlide-Container">
-            <h2 className="titleSlide">Nombre Persona</h2>
-            <p className='pSlide'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolor, repudiandae consequatur, laborum ea quod accusantium sapiente et ipsa laboriosam, quae necessitatibus assumenda ad magnam harum. Eveniet enim accusamus nostrum?</p>
-            </div>
+            <p className='pSlide'><span className='comillaSlide'>"</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolor, repudiandae consequatur, laborum ea quod accusantium sapiente et ipsa laboriosam, quae necessitatibus assumenda ad magnam harum. Eveniet enim accusamus nostrum?<span className='comillaSlide'>"</span></p>
           </div>
         </div>
         <div className="carousel-item" data-bs-interval="5000">
           <div className="carousel-content">
-            <div className="imgSlide-Container">
-          <img src={user} alt="" className='imgUser-Slide'/>
+            <div className="text-ImgSlide-Container">
+              <div className="imgSlide-Container">
+                <img src={user} alt="" className='imgUser-Slide' />
+              </div>
+                <h2 className="titleSlide">Nombre Persona</h2>
             </div>
-            <div className="textSlide-Container">
-            <h2 className="titleSlide">Nombre Persona</h2>
-            <p className='pSlide'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolor, repudiandae consequatur, laborum ea quod accusantium sapiente et ipsa laboriosam, quae necessitatibus assumenda ad magnam harum. Eveniet enim accusamus nostrum?</p>
-            </div>
+            <p className='pSlide'><span className='comillaSlide'>"</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolor, repudiandae consequatur, laborum ea quod accusantium sapiente et ipsa laboriosam, quae necessitatibus assumenda ad magnam harum. Eveniet enim accusamus nostrum?<span className='comillaSlide'>"</span></p>
           </div>
         </div>
       </div>

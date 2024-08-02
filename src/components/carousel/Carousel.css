@@ -1,36 +1,51 @@
 .carousel-item {
-    height: 65vh;
-    padding: 5%;
-  }
-  
-  
-  .carousel-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    padding: 5%;
-  }
-.imgSlide-Container{
-  width: 70%;
-  height: 70%;
+  height: 65vh;
+  padding: 5%;
 }
-  .imgUser-Slide{
-    width:100%;
-    height:100%;
-    object-fit: contain;
-    object-position: center;
-  }
-  .textSlide-Container{
-    width: 100%;
-    height: 100%;
-    align-content: center;
-  }
 
-  .titleSlide{
-    font: 3rem;
-  }
-  .pSlide{
-    font-size: 1.3rem;
-  }
+.carousel-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  padding: 5%;
+  width: 100%;
+}
+
+.imgSlide-Container {
+  width: 10%; /* Ajuste el tamaño según sea necesario para la imagen */
+  height: auto;
+  margin-right: 2%; /* Espacio entre la imagen y el texto */
+}
+
+.imgUser-Slide {
+  width: 80%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+}
+
+.text-ImgSlide-Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.titleSlide {
+  font-size: 2vw;
+  margin: 0;
+}
+
+.pSlide {
+  font-size: 1.5vw;
+  text-align: left;
+  margin-top: 1%;
+  width: 100%;
+}
+
+.comillaSlide{
+  font-size: 5.5vw;
+  color: brown;
+}

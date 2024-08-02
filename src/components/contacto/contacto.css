@@ -51,9 +51,9 @@
   padding: 15px 25px;
   border: unset;
   border-radius: 15px;
-  color: #FFFFFF; /* Cambiado a blanco */
+  color: #FFFFFF; /* Mantén el color blanco */
   z-index: 1;
-  background: #2A2A72; /* Un tono más oscuro de azul */
+  background: #4CAF50; /* Verde */
   position: relative;
   font-weight: 1000;
   font-size: 17px;
@@ -76,7 +76,7 @@
   height: 100%;
   width: 0;
   border-radius: 15px;
-  background-color: #5A5AD0; /* Un tono más claro de azul */
+  background-color: #66BB6A; /* Un tono más claro de verde */
   z-index: -1;
   -webkit-box-shadow: 4px 8px 19px -3px rgba(255, 255, 255, 0.27);
   box-shadow: 4px 8px 19px -3px rgba(255, 255, 255, 0.27);
@@ -84,13 +84,12 @@
 }
 
 .btn-contact:hover {
-  color: #2A2A72; /* Cambiado a tono más oscuro de azul */
+  color: gray /* Cambiado a tono verde */
 }
 
 .btn-contact:hover::before {
   width: 100%;
 }
-
 
 .imgBtnContacto{
   width: 10%;
