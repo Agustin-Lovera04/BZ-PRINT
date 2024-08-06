@@ -38,14 +38,16 @@
   margin: 0;
 }
 
-.pSlide {
-  font-size: 1.5vw;
-  text-align: left;
-  margin-top: 1%;
-  width: 100%;
+.pSlide-Container{
+  padding: 3%;
+  font-size: 1.5em;
 }
 
-.comillaSlide{
-  font-size: 5.5vw;
+.comillaSlide {
   color: brown;
+  font-family: 'Georgia', serif;
+}
+
+.pSlide {
+  text-align: left;
 }

@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   min-height: 95vh;
+  padding: 5%;
   }
 
   /* TITLE */
@@ -31,7 +32,8 @@
 
   .pEnvios{
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: justify;
   }
 
   .imgEnvios-Container{
@@ -41,8 +43,8 @@
     align-items: center;
   }
   .imgEnvios{
-    width: min-content;
-    height: min-content;
+    width: 95%;
+    height: 95%;
   }
   .subTitleEnvios{
     color: white;

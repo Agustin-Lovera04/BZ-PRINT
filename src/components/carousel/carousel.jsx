@@ -1,4 +1,4 @@
-import user from '/images/user.png'
+import user from '/images/user.png';
 import "./Carousel.css";
 
 const CarouselComponent = () => {
@@ -11,15 +11,19 @@ const CarouselComponent = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active" data-bs-interval="5000">
-
           <div className="carousel-content">
             <div className="text-ImgSlide-Container">
               <div className="imgSlide-Container">
                 <img src={user} alt="" className='imgUser-Slide' />
               </div>
-                <h2 className="titleSlide">Nombre Persona</h2>
+              <h2 className="titleSlide">Nombre Persona</h2>
             </div>
-            <p className='pSlide'><span className='comillaSlide'>"</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolor, repudiandae consequatur, laborum ea quod accusantium sapiente et ipsa laboriosam, quae necessitatibus assumenda ad magnam harum. Eveniet enim accusamus nostrum?<span className='comillaSlide'>"</span></p>
+            <p className='pSlide-Container'>
+              <span className='comillaSlide fw-bold'>“</span> <span className='pSlide fw-bold'>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolor, repudiandae consequatur, laborum ea quod accusantium sapiente et ipsa laboriosam, quae necessitatibus assumenda ad magnam harum. Eveniet enim accusamus nostrum?
+                </span>
+                 <span className='comillaSlide fw-bold'>”</span>
+            </p>
           </div>
         </div>
         <div className="carousel-item" data-bs-interval="5000">
@@ -28,9 +32,14 @@ const CarouselComponent = () => {
               <div className="imgSlide-Container">
                 <img src={user} alt="" className='imgUser-Slide' />
               </div>
-                <h2 className="titleSlide">Nombre Persona</h2>
+              <h2 className="titleSlide">Nombre Persona</h2>
             </div>
-            <p className='pSlide'><span className='comillaSlide'>"</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolor, repudiandae consequatur, laborum ea quod accusantium sapiente et ipsa laboriosam, quae necessitatibus assumenda ad magnam harum. Eveniet enim accusamus nostrum?<span className='comillaSlide'>"</span></p>
+            <p className='pSlide-Container'>
+              <span className='comillaSlide fw-bold'>“</span> <span className='pSlide fw-bold'>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolor, repudiandae consequatur, laborum ea quod accusantium sapiente et ipsa laboriosam, quae necessitatibus assumenda ad magnam harum. Eveniet enim accusamus nostrum?
+                </span>
+                    <span className='comillaSlide fw-bold'>”</span>
+            </p>
           </div>
         </div>
         <div className="carousel-item" data-bs-interval="5000">
@@ -39,9 +48,14 @@ const CarouselComponent = () => {
               <div className="imgSlide-Container">
                 <img src={user} alt="" className='imgUser-Slide' />
               </div>
-                <h2 className="titleSlide">Nombre Persona</h2>
+              <h2 className="titleSlide">Nombre Persona</h2>
             </div>
-            <p className='pSlide'><span className='comillaSlide'>"</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolor, repudiandae consequatur, laborum ea quod accusantium sapiente et ipsa laboriosam, quae necessitatibus assumenda ad magnam harum. Eveniet enim accusamus nostrum?<span className='comillaSlide'>"</span></p>
+            <p className='pSlide-Container'>
+              <span className='comillaSlide fw-bold'>“</span> <span className='pSlide fw-bold'>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolor, repudiandae consequatur, laborum ea quod accusantium sapiente et ipsa laboriosam, quae necessitatibus assumenda ad magnam harum. Eveniet enim accusamus nostrum?
+                </span>
+                 <span className='comillaSlide fw-bold'>”</span>
+            </p>
           </div>
         </div>
       </div>

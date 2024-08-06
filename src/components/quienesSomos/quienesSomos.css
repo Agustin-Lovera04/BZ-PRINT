@@ -42,7 +42,8 @@
 
 .pQuienesSomos{
   color: white;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  text-align: justify;
 }
 
 .custom-divider {
