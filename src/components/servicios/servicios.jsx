@@ -6,37 +6,48 @@ const Servicios = () => {
 
                 <h1><span className="TitleServicios-Content fw-bold">SERVICIOS</span></h1>
 
+                <h1 className='subTitleServicios fw-bold'>QUE OFRECEMOS EN BZ PRINT?</h1>
+
                 <div className="cardsServicios-Container">
-
-                    <div className="card" /* style="width: 18rem;" */>
-                        <img src="/images/RecursoNº2.jpg" class="card-img-top card-img" alt="..." />
-                        <div className="card-body">
-                            <h5 className="card-title">APUNTES</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div className="card">
+                    <img src="/images/RecursoNº2.jpg" class=" card-img" alt="..." />
+                        <div className="card__content">
+                            <p className="card__title">Card Title</p>
+                            <p className="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                         </div>
                     </div>
 
-                    <div className="card" /* style="width: 18rem;" */>
-                        <img src="/images/RecursoNº2.jpg" class="card-img-top card-img" alt="..." />
-                        <div className="card-body">
-                            <h5 className="card-title">LIBROS</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                    <div className="card">
+                    <img src="/images/RecursoNº2.jpg" class="card-img" alt="..." />
+                        <div className="card__content">
+                            <p className="card__title">Card Title</p>
+                            <p className="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                         </div>
                     </div>
 
-                    <div className="card" /* style="width: 18rem;" */>
-                        <img src="/images/RecursoNº2.jpg" class="card-img-top card-img" alt="..." />
-                        <div className="card-body">
-                            <h5 className="card-title">FOTOS</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div className="card">
+                    <img src="/images/RecursoNº2.jpg" class="card-img" alt="..." />
+                        <div className="card__content">
+                            <p className="card__title">Card Title</p>
+                            <p className="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                        </div>
+                    </div>
+                    <div className="card">
+                    <img src="/images/RecursoNº2.jpg" class="card-img" alt="..." />
+                        <div className="card__content">
+                            <p className="card__title">Card Title</p>
+                            <p className="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                        </div>
+                    </div>
+                    <div className="card">
+                    <img src="/images/RecursoNº2.jpg" class="card-img" alt="..." />
+                        <div className="card__content">
+                            <p className="card__title">Card Title</p>
+                            <p className="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                         </div>
                     </div>
                 </div>
-
-                <h1><span className='subTitleServicios1-Content fw-bold'>¿QUE OFRECEMOS EN </span><span className='subTitleServicios2-Content fw-bold'>BZ PRINT?</span></h1>
 
             </div>
         </>
