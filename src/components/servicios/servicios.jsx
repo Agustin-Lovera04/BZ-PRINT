@@ -6,7 +6,6 @@ const Servicios = () => {
 
                 <h1><span className="TitleServicios-Content fw-bold">SERVICIOS</span></h1>
 
-                <h1 className='subTitleServicios fw-bold'>QUE OFRECEMOS EN BZ PRINT?</h1>
 
                 <div className="cardsServicios-Container">
                     <div className="card">

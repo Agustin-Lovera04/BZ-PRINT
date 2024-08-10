@@ -1,11 +1,4 @@
-/* .s1-Container {
-  background-color: #3F50C8;
-  height: min-content;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 95vh;
-} */
+/* GENERALES */
 .s1-Container {
   display: flex;
   flex-direction: column;
@@ -17,6 +10,11 @@
   background-repeat: no-repeat; /* La imagen no se repite */
   height: auto;
   min-height: 95vh;
+}
+
+.navbar-Container {
+  position: fixed;
+  z-index: 1000;
 }
 
 /* TITLE MAIN */

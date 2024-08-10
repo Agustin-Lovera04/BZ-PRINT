@@ -7,8 +7,6 @@ const Contacto = () => {
             <div className="contacto-Container">
                 <h1 className="titleContacto fw-bold col-12">CONTACTO</h1>
 
-                <h1 className="subTitleContacto fw-bold col-12">CONTACTANOS A TRAVES DE LOS SIGUIENTES CANALES </h1>
-
                 <div className="mediosContacto-Container">
 
                     <div className="btnsContacto-Container col-12">

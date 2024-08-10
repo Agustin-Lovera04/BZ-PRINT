@@ -10,19 +10,20 @@ import PreguntasFrecuentes from '../pregFrec/pregFrec';
 import Clientes from '../clientes/clientes';
 
 const Main = () => {
-        /*   const mainRef = useRef(null);
-      const bienvenidaRef = useRef(null);
-      const sobreMiRef = useRef(null);
-      const conocimientosRef = useRef(null);
-      const proyectosRef = useRef(null);
-      const contactoRef = useRef(null); */
+      const mainRef = useRef(null);
+      const QuienesSomosRef = useRef(null);
+      const serviciosRef = useRef(null);
+      const enviosRef = useRef(null);
+      const PreguntasFrecuentesRef = useRef(null);
+      const clientesRef = useRef(null);
+      const contactoRef = useRef(null);
 
-    /*     const [showNavBar, setShowNavBar] = useState(false);
+        const [showNavBar, setShowNavBar] = useState(false);
     
         const scrollToRef = (ref) => {
             if (ref && ref.current) {
                 const offsetTop = ref.current.offsetTop;
-                const offset = -85;
+                const offset = - 40;
                 window.scrollTo({
                     top: offsetTop + offset,
                     behavior: 'smooth',
@@ -31,7 +32,7 @@ const Main = () => {
         };
     
         const handleScroll = () => {
-            if (window.scrollY >= bienvenidaRef.current.offsetTop - 85) {
+            if (window.scrollY >= mainRef.current.offsetTop - 40) {
                 setShowNavBar(true);
             } else {
                 setShowNavBar(false);
@@ -43,18 +44,21 @@ const Main = () => {
             return () => {
                 window.removeEventListener('scroll', handleScroll);
             };
-        }, []); */
+        }, []);
     return (
         <>
-            <div className="container-fluid">
+            <div className="container-fluid" ref={mainRef}>
                 <div className='s1-Container'>
                     <div className="navbar-Container col-12">
                         <NavBar 
-                         /*             scrollToMain={() => scrollToRef(mainRef)}
-                        scrollToSobreMi={() => scrollToRef(sobreMiRef)}
-                        scrollToConocimientos={() => scrollToRef(conocimientosRef)}
-                        scrollToProyectos={() => scrollToRef(proyectosRef)}
-                        scrollToContacto={() => scrollToRef(contactoRef)} *//>
+                        scrollToMain={() => scrollToRef(mainRef)}
+                        scrollToQuienesSomos={() => scrollToRef(QuienesSomosRef)}
+                        scrollToServicios={() => scrollToRef(serviciosRef)}
+                        scrollToEnvios={() => scrollToRef(enviosRef)}
+                        scrollToPreguntasFrecuentes={() => scrollToRef(PreguntasFrecuentesRef)}
+                        scrollToClientes={() => scrollToRef(clientesRef)}
+                        scrollToContacto={() => scrollToRef(contactoRef)}
+                        />
                         
                     </div>
 
@@ -118,12 +122,24 @@ const Main = () => {
                     </div>
                 </div>
                 
+                <div ref={QuienesSomosRef}>
                 <QuienesSomos />
+                </div>
+                <div ref={serviciosRef}>
                 <Servicios />
+                </div>
+                <div ref={enviosRef}>
                 <Envios />
+                </div>
+                <div ref={PreguntasFrecuentesRef}>
                 <PreguntasFrecuentes />
+                </div>
+                <div ref={clientesRef}>
                 <Clientes />
+                </div>
+                <div ref={contactoRef}>
                 <Contacto />
+                </div>
             </div>
         </>
     );
