@@ -13,7 +13,13 @@
     background-color: transparent;
     border: none;
     font-weight: bold;
-    color: white;
+    color: lightgray;
+    width: max-content;
+}
+
+.nav-item{
+    width: min-content;
+    align-content: center;
 }
 .vertical-divider-NavBar {
     width: .3%; /* Ajusta el grosor del divisor según tu preferencia */
