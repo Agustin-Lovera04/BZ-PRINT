@@ -13,8 +13,7 @@
 }
 
 .navbar-Container {
-  position: fixed;
-  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.299);
 }
 
 /* TITLE MAIN */
@@ -22,6 +21,7 @@
 .TitleMain-Container{
     display: flex;
     justify-content: flex-end;
+    padding: .5% 2% .5% .5%;
 }
 .TitleMain1-Content{
     color: white;

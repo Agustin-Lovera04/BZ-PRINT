@@ -63,7 +63,7 @@ const Main = () => {
                     </div>
 
                     <div className="TitleMain-Container col-12">
-                        <h1><span className='TitleMain1-Content fw-bold'> "FRASE FRASE <br /> </span> <span className='TitleMain2-Content fw-bold'>FRASE FRASE <br /> FRASE FRASE"</span></h1>
+                        <h1><span className='TitleMain2-Content fw-bold'>"QUE TE <br /> DE GUSTO</span><br /><span className='TitleMain1-Content fw-bold'> ESTUDIAR"  </span></h1>
                     </div>
                     <div className="ButtonSocial-Container col-1">
                         <ul class="example-2">

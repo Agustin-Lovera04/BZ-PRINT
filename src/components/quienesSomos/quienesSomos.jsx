@@ -11,8 +11,8 @@ const QuienesSomos = () => {
                         < InstagramEmbed url="https://www.instagram.com/p/C8pyoc3xAWc/" />
                     </div>
                         <hr className='custom-divider' />
-                        <p className='pQuienesSomos col-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum sunt optio deleniti porro doloribus unde magni ex! Ullam itaque sit quibusdam amet quae at quas ipsa laboriosam obcaecati, fugiat harum.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dignissimos dolores eos id praesentium molestias recusandae eius voluptatum itaque eaque? Consequatur omnis excepturi maiores quidem doloremque! Qui placeat consequatur dolorem.
+                        <p className='pQuienesSomos col-6 fw-bold'>BZ es un emprendimiento joven dedicado a mejorar la calidad de estudio de estudiantes e instituciones, hacemos envios a domicilio de fotocopias e impresiones en el día y de forma super económica! Estamos trabajando en una biblioteca virtual en la cual todos van a poder acceder a apuntes de distintas cátedras de distintas facultades, universidad y terciarios de la ciudad de santa fe.
+                        Con este grupo de trabajo pensamos que la unión hace a la fuerza y estamos dispuestos a revolucionar la industria del estudio.
                         </p>
                     </div>
                 </div>

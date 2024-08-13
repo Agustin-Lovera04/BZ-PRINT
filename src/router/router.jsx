@@ -9,7 +9,7 @@ import Index from "../components/Index";
 
 export default function Router() {
     return (
-        <BrowserRouter>
+        <BrowserRouter  basename="/BZ-PRINT">
             <Routes>
                 <Route path="/" element={<Index />} />
 
