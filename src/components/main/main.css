@@ -2,7 +2,6 @@
 .s1-Container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   background-image: url('/images/FONDO.png');
   background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
   background-position: bottom; /* Centra la imagen */
@@ -20,20 +19,28 @@
 
 .TitleMain-Container{
     display: flex;
-    justify-content: flex-end;
-    padding: .5% 2% .5% .5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4%;
 }
 .TitleMain1-Content{
+  height: min-content;
     color: white;
     font-style: italic;
-    font-size: 4rem;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
 }
 .TitleMain2-Content{
+  height: min-content;
     font-style: italic;
     color: transparent;
-    -webkit-text-stroke: 1px;
+    -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: white;
-    font-size: 4rem;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
 }
 
 /* Social Button */
@@ -155,9 +162,9 @@ ul {
 
 
 /* IMG MAIN */
-.LogoBZ-Img{
+/* .LogoBZ-Img{
     width: 50vw;
     height: 20vh;
     padding: 1%;
     margin: 2%;
-}
+} */

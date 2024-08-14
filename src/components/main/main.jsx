@@ -63,7 +63,7 @@ const Main = () => {
                     </div>
 
                     <div className="TitleMain-Container col-12">
-                        <h1><span className='TitleMain2-Content fw-bold'>"QUE TE <br /> DE GUSTO</span><br /><span className='TitleMain1-Content fw-bold'> ESTUDIAR"  </span></h1>
+                        <span className='TitleMain2-Content fw-bold col-12'>"QUE TE DE GUSTO</span><span className='TitleMain1-Content fw-bold col-12'> ESTUDIAR"  </span>
                     </div>
                     <div className="ButtonSocial-Container col-1">
                         <ul class="example-2">
@@ -117,9 +117,9 @@ const Main = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className='LogoMain-Container col-6'>
+{/*                     <div className='LogoMain-Container col-6'>
                         <img src={LogoBZ} alt="" className='LogoBZ-Img' />
-                    </div>
+                    </div> */}
                 </div>
                 
                 <div ref={QuienesSomosRef}>
