@@ -1,11 +1,10 @@
-import React from 'react';
-import './clientes.css';
+import './equipo.css';
 import CarouselComponent from '../carousel/carousel';
 
-const Clientes = () => {
+const Equipo = () => {
     return (
         <div className="clientes-Container">
-            <h1 className="titleClientes">CLIENTES</h1>
+            <h1 className="titleClientes">NUESTRO EQUIPO</h1>
             <div className="carrousel-Container">
                 <CarouselComponent />
             </div>
@@ -13,4 +12,4 @@ const Clientes = () => {
     );
 }
 
-export default Clientes;
+export default Equipo;

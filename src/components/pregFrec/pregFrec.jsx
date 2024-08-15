@@ -9,26 +9,29 @@ const PreguntasFrecuentes = () => {
                 <div className="pregBoxs-Container col-12">
                     <div className="faq-box col-12">
                         <div className="faq-item">
-                            <h3 className="question">¿Cómo puedo contactarte?</h3>
-                            <p className="answer">Puedes contactarnos a través del formulario en la página de contacto.</p>
+                            <h3 className="question">¿Hacen envios a toda la ciudad y alrededores?</h3>
+                            <p className="answer">Si, hacemos envios a toda la ciudad con cadeteria propia.
+                            </p>
                         </div>
                     </div>
                     <div className="faq-box col-12">
                         <div className="faq-item b-r">
-                            <h3 className="question">¿Cómo puedo contactarte?</h3>
-                            <p className="answer">Puedes contactarnos a través del formulario en la página de contacto.</p>
+                            <h3 className="question">¿Realizan envios en el día?</h3>
+                            <p className="answer">Si, tomamos los pedidos y los entregamos el día y fecha que el cliente quiera, incluído envios en el momento.
+                            </p>
                         </div>
                     </div>
                     <div className="faq-box col-12">
                         <div className="faq-item">
-                            <h3 className="question">¿Cómo puedo contactarte?</h3>
-                            <p className="answer">Puedes contactarnos a través del formulario en la página de contacto.</p>
+                            <h3 className="question">¿Realizan anillados, abrochados etc?</h3>
+                            <p className="answer">Realizamos todo lo que se necesita para que puedas estudiar de la mejor forma y como siempre súper económico !
+                            </p>
                         </div>
                     </div>
                     <div className="faq-box col-12">
                         <div className="faq-item b-r">
-                            <h3 className="question">¿Cómo puedo contactarte?</h3>
-                            <p className="answer">Puedes contactarnos a través del formulario en la página de contacto.</p>
+                            <h3 className="question">¿Trabajan solo con instituciones?</h3>
+                            <p className="answer">No, trabajamos a todo el público instituciones, estudiantes y demas</p>
                         </div>
                     </div>
                 </div>

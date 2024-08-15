@@ -3,7 +3,7 @@ import LogoBZ from '/images/BZPrint-Logo.png'
 import './navbar.css'
 
 
-const Navbar =  ({ scrollToMain, scrollToQuienesSomos, scrollToServicios, scrollToEnvios, scrollToPreguntasFrecuentes, scrollToClientes, scrollToContacto }) => {
+const Navbar =  ({ scrollToMain, scrollToQuienesSomos, scrollToServicios, scrollToEnvios, scrollToPreguntasFrecuentes, scrollToEquipo, scrollToContacto }) => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
         <div className="container-fluid navbar">
@@ -37,7 +37,7 @@ const Navbar =  ({ scrollToMain, scrollToQuienesSomos, scrollToServicios, scroll
               <div className="vertical-divider-NavBar col-1"></div>
 
               <li className="nav-item">
-                <button className="nav-link" onClick={scrollToClientes}>Clientes</button>
+                <button className="nav-link" onClick={scrollToEquipo}>Nuestro Equipo</button>
               </li>
               <div className="vertical-divider-NavBar col-1"></div>
 

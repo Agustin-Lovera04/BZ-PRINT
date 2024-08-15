@@ -8,14 +8,18 @@ const Envios = () => {
 
                 <div className="envios-Content col-12">
                     <div className="pEnvios col-5">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus consequuntur quia explicabo porro! Minima deserunt vero pariatur? Adipisci pariatur a quia numquam ipsum, commodi nesciunt id, quos ullam minus cum.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam saepe voluptate dolore esse provident. Repudiandae, culpa dignissimos tempore aperiam delectus fugit eaque quis alias quidem nesciunt minima at excepturi perspiciatis.
+                        <p className='fw-bold text-light p-Envios-Container'>
+                            REALIZAMOS ENVIOS A <span className="pRTA-Envios">TODA LA CIUDAD</span><hr />
+                            <span className='pPregunta-Envios'>¿ CUANDO ?<br /></span> LOS DIAS <span className="pRTA-Envios">LUNES Y VIERNES</span><hr />
+                            <span className="pPregunta-Envios">¿ HORARIOS ? <br /></span>
+                            <span className="pRTA-Envios"> 10:00hs a 13:00hs</span><br /><span className="pRTA-Envios">15:00hs a 18:00hs</span>
                         </p>
                     </div>
-                    <div className="vertical-divider col-1"></div>
+                    <div className="vertical-divider-Envios col-1"></div>
                     <div className="imgEnvios-Container col-6">
                         <img src={EnviosIMG} alt="" className='imgEnvios'/>
-                        <h2 className='subTitleEnvios fw-bold'>ENVIOS AL INSTANTE</h2>
+                        <p className='subTitleEnvios fw-bold'>ENVIOS AL INSTANTE<br />
+                        <p className="pACLARACION-Envios fw-bold">(*REQUIERE COSTO ADICIONAL)</p></p>
                     </div>
                 </div>
             </div>

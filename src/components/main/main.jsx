@@ -7,7 +7,7 @@ import Servicios from '../servicios/servicios';
 import Envios from '../envios/envios';
 import Contacto from '../contacto/contacto';
 import PreguntasFrecuentes from '../pregFrec/pregFrec';
-import Clientes from '../clientes/clientes';
+import Equipo from '../equipo/equipo';
 
 const Main = () => {
       const mainRef = useRef(null);
@@ -15,7 +15,7 @@ const Main = () => {
       const serviciosRef = useRef(null);
       const enviosRef = useRef(null);
       const PreguntasFrecuentesRef = useRef(null);
-      const clientesRef = useRef(null);
+      const equipoRef = useRef(null);
       const contactoRef = useRef(null);
 
         const [showNavBar, setShowNavBar] = useState(false);
@@ -56,7 +56,7 @@ const Main = () => {
                         scrollToServicios={() => scrollToRef(serviciosRef)}
                         scrollToEnvios={() => scrollToRef(enviosRef)}
                         scrollToPreguntasFrecuentes={() => scrollToRef(PreguntasFrecuentesRef)}
-                        scrollToClientes={() => scrollToRef(clientesRef)}
+                        scrollToEquipo={() => scrollToRef(equipoRef)}
                         scrollToContacto={() => scrollToRef(contactoRef)}
                         />
                         
@@ -134,8 +134,8 @@ const Main = () => {
                 <div ref={PreguntasFrecuentesRef}>
                 <PreguntasFrecuentes />
                 </div>
-                <div ref={clientesRef}>
-                <Clientes />
+                <div ref={equipoRef}>
+                <Equipo />
                 </div>
                 <div ref={contactoRef}>
                 <Contacto />
