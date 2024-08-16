@@ -1,12 +1,13 @@
 -display de conteinido, coherencia logo y social butons
 
 
+
 -BUSCAR EQUIVALENCIA DE TAMAÑOS EN IMAGENES. ( envio con quienes somos)
 -EDITAR IMG DE FONDO
 -CORREGIR CARROUSEL (https://dribbble.com/testimonials)
 -UI DE FORMULARIO
 -PULIR CONTACTO
--NAVBAR
+-NAVBAR (LISTA EN RESPONSIVE MAL DESPLEGADA)
 -SERVICIO
 -RESPONSIVE Y SUBIR PARA SPREED
 
