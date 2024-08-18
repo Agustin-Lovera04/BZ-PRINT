@@ -62,18 +62,25 @@
         height: 100%;
         background-color: rgba(0, 0, 0, 0.8);
         display: flex;
-        justify-content: center;
+        justify-content: center !important;
         align-items: center;
         flex-direction: column;
+        z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
       }
-      
+      .navbar-toggler{
+        z-index: 9999;
+      }
+
+      .navbar-toggler-icon {
+        background-image: url('/images/menu.png') !important;
+      }
       .nav-link {
         color: white;
-        font-size: 1.5rem;
-        margin: 1rem 0;
+        font-size: 1.5rem; /* Aumenta el tamaño de fuente para mejorar la legibilidad */
+        margin: 1rem
       }
       
       .vertical-divider-NavBar {
-        display: none;
+        display: none; /* Oculta los divisores verticales en el menú expandido */
       }
 }
