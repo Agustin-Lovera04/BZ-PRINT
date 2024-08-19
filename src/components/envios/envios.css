@@ -67,3 +67,19 @@
     width: .3%; /* Ajusta el grosor del divisor según tu preferencia */
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.904), rgba(255, 255, 255, 0));
 }
+
+@media(max-width: 992px){
+  .titleEnvios-Content{
+    font-size: 4rem;
+    margin: 3%;
+  }
+  .envios-Content{
+    flex-direction: column;
+  }
+  .subTitleEnvios{
+    font-size: 1.5rem;
+  }
+  .p-Envios-Container{
+    font-size: 1.5rem;
+  }
+}

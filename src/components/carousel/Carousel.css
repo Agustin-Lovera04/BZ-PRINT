@@ -36,6 +36,7 @@
 .titleSlide {
   font-size: 2vw;
   margin: 0;
+  font-weight: bold;
 }
 
 .pSlide-Container{
@@ -50,4 +51,16 @@
 
 .pSlide {
   text-align: left;
+}
+
+@media(max-width:992px){
+  .titleSlide{
+    font-size: 1.5rem;
+  }
+  .pSlide-Container{
+    font-size: 1.2rem;
+  }
+  .imgSlide-Container{
+    width: 20%;
+  }
 }

@@ -53,3 +53,23 @@
   background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
   margin: 20px 0; /* Ajusta el margen superior e inferior según tu preferencia */
 }
+
+
+@media(max-width: 992px){
+  .TitleQuienesSomos-Content, .TitleQuienesSomos2-Content{
+    font-size: 2.5rem;
+    margin: 2%;
+  }
+  .sec2QuienesSomos-Container{
+flex-direction: column-reverse;
+margin: 1%;  
+}
+.iframeQuienesSomos{
+  width: auto !important;
+  height: 10% !important;
+}
+.pQuienesSomos{
+  font-size: 1rem;
+}
+
+}

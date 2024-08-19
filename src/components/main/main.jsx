@@ -48,7 +48,6 @@ const Main = () => {
     return (
         <>
             <div className="container-fluid" ref={mainRef}>
-                <div className='s1-Container'>
                     <div className="navbar-Container col-12">
                         <NavBar 
                         scrollToMain={() => scrollToRef(mainRef)}
@@ -61,11 +60,12 @@ const Main = () => {
                         />
                         
                     </div>
+                <div className='s1-Container'>
 
                     <div className="TitleMain-Container col-12">
                         <span className='TitleMain2-Content fw-bold col-12'>"QUE TE DE GUSTO</span><span className='TitleMain1-Content fw-bold col-12'> ESTUDIAR"  </span>
                     </div>
-                    <div className="ButtonSocial-Container col-1">
+                    <div className="ButtonSocial-Container col-6">
                         <ul class="example-2">
                             <li class="icon-content">
                                 <a

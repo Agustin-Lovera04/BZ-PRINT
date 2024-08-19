@@ -54,6 +54,7 @@
   font-size: 1.1em;
   color: #333;
   margin-bottom: .5%;
+  font-weight: bold;
 }
 
 .answer {
@@ -64,4 +65,14 @@
 .b-r{
   border-right: 7px solid #08e2e6;
   border-left: none !important;
+}
+
+@media(max-width: 992px){
+  .titlePregFrec{
+    font-size: 3rem;
+  }
+  .faq-item{
+    width: 70%;
+    margin: 2%;
+  }
 }

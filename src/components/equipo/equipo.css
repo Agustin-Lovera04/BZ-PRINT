@@ -28,3 +28,13 @@
   background-color: rgba(255, 255, 255, 0.535);
 
 }
+
+@media(max-width:992px){
+  .titleClientes{
+    font-size: 4rem;
+    text-align: center;
+  }
+  .carrousel-Container{
+    height: 50%;
+  }
+}

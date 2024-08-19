@@ -4,7 +4,7 @@ import CarouselComponent from '../carousel/carousel';
 const Equipo = () => {
     return (
         <div className="clientes-Container">
-            <h1 className="titleClientes">NUESTRO EQUIPO</h1>
+            <h1 className="titleClientes fw-bold">NUESTRO EQUIPO</h1>
             <div className="carrousel-Container">
                 <CarouselComponent />
             </div>

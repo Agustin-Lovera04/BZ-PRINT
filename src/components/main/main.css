@@ -9,11 +9,13 @@
   background-repeat: no-repeat; /* La imagen no se repite */
   height: auto;
   min-height: 95vh;
+  justify-content: center;
 }
 
 .navbar-Container {
   background-color: rgba(255, 255, 255, 0.299);
   position: fixed;
+  height: 16%;
   z-index: 1005;
 }
 
@@ -24,7 +26,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 4%;
+    padding-top: 10%;
 }
 .TitleMain1-Content{
   height: min-content;
@@ -46,6 +48,10 @@
 }
 
 /* Social Button */
+.ButtonSocial-Container{
+  display: flex;
+  align-items: flex-start;
+}
 ul {
   list-style: none;
 }
@@ -162,11 +168,20 @@ ul {
 }
 
 
+@media(max-width: 992px){
+  .navbar-Container {
+    height: 10%;
+  }
 
-/* IMG MAIN */
-/* .LogoBZ-Img{
-    width: 50vw;
-    height: 20vh;
-    padding: 1%;
-    margin: 2%;
-} */
+  .TitleMain1-Content{
+    font-size: 3.5rem;
+    justify-content: flex-start;
+  }
+  .TitleMain2-Content{
+    font-size: 3.5rem;
+  }
+  .example-2{
+    flex-direction: row;
+    padding: 0;
+  }
+}
