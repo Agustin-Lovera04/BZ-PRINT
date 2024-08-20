@@ -8,7 +8,6 @@
   min-height: 95vh;
   display: flex;
   flex-direction: column;
-  min-height: 95vh;
   }
 
   /* TITLE */
@@ -38,6 +37,7 @@
   .imgEnvios{
     width: 90%;
     height: 90%;
+    object-fit: cover;
   }
   .subTitleEnvios{
     color: white;

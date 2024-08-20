@@ -10,7 +10,7 @@ const Contacto = () => {
                 <div className="mediosContacto-Container">
 
                     <div className="btnsContacto-Container col-12">
-                        <button className='btn-contact col-7'>
+                        <button className='btn-contact col-lg-5 col-7'>
                             <img src={imgWhatsapp} className='imgBtnContacto' alt="" /> Envianos un WhatsApp
                         </button>
                     </div>
@@ -19,7 +19,7 @@ const Contacto = () => {
                             action="mailto:your-email@example.com?subject=CONSULTA%20SITIO%20WEB"
                             method="post"
                             encType="text/plain"
-                            className='col-7'
+                            className='col-lg-5 col-7'
                         >
                             <label htmlFor="NameUser" className='fw-bold text-light fs-4'>Ingrese su nombre:</label>
                             <input type="text" id="Name" name="Nombre" required placeholder='Ingrese su nombre' />

@@ -15,7 +15,7 @@
 .navbar-Container {
   background-color: rgba(255, 255, 255, 0.299);
   position: fixed;
-  height: 16%;
+  height: 18%;
   z-index: 1005;
 }
 
