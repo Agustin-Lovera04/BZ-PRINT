@@ -5,7 +5,7 @@ const QuienesSomos = () => {
     return (
         <>
             <div className="quienesSomos-Container">
-                <h1 className='d-flex flex-row col-12 m-2'><span className="TitleQuienesSomos-Content fw-bold ">¿QUIENES </span><span className="TitleQuienesSomos2-Content fw-bold">SOMOS?</span></h1>
+                <h1 className='d-flex flex-row col-12 m-2'><span className="TitleQuienesSomos-Content fw-bold ">¿QUIENES </span> <span className="TitleQuienesSomos2-Content fw-bold"> SOMOS?</span></h1>
                 <div className="sec2QuienesSomos-Container">
                     <div className="iframeQuienesSomos col-12 col-lg-6">
                         <InstagramEmbed url="https://www.instagram.com/p/C8pyoc3xAWc/" />

@@ -8,6 +8,7 @@ import Envios from '../envios/envios';
 import Contacto from '../contacto/contacto';
 import PreguntasFrecuentes from '../pregFrec/pregFrec';
 import Equipo from '../equipo/equipo';
+import Footer from '../footer/footer';
 
 const Main = () => {
       const mainRef = useRef(null);
@@ -140,6 +141,7 @@ const Main = () => {
                 <div ref={contactoRef}>
                 <Contacto />
                 </div>
+                <Footer/>
             </div>
         </>
     );

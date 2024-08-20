@@ -5,13 +5,13 @@ const Servicios = () => {
     return (
         <>
             <div className="servicios-Container">
-                <div className="sec1Servicios-Container col-12 col-xl-6">
+                <div className="sec1Servicios-Container col-12 col-lg-6">
                 <span className="TitleServicios-Content fw-bold">SERVICIOS</span>
                 <p className='pServicios fw-bold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia in quo animi, eos suscipit tenetur rem nobis consequatur porro inventore facere facilis error est perspiciatis magni ipsam! Ea, quas iure.</p>
                 </div>
 
 
-                <div className="cardsServicios-Container col-12 col-xl-6">
+                <div className="cardsServicios-Container col-12 col-lg-6">
                     <div className="card">
                     <img src={imgCard} class=" card-img" alt="..." />
                         <div className="card__content">

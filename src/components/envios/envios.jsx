@@ -7,7 +7,7 @@ const Envios = () => {
                 <h1 className='titleEnvios-Content fw-bold col-12'>ENVIOS</h1>
 
                 <div className="envios-Content col-12">
-                    <div className="pEnvios col-12 col-xl-6">
+                    <div className="pEnvios col-12 col-lg-6">
                         <p className='fw-bold text-light p-Envios-Container'>
                             REALIZAMOS ENVIOS A <span className="pRTA-Envios">TODA LA CIUDAD</span><hr />
                             <span className='pPregunta-Envios'>¿ CUANDO ?<br /></span> LOS DIAS <span className="pRTA-Envios">LUNES Y VIERNES</span><hr />
@@ -16,7 +16,7 @@ const Envios = () => {
                         </p>
                     </div>
                     <div className="vertical-divider-Envios col-1"></div>
-                    <div className="imgEnvios-Container col-12 col-xl-6">
+                    <div className="imgEnvios-Container col-12 col-lg-6">
                         <img src={EnviosIMG} alt="" className='imgEnvios'/>
                         <p className='subTitleEnvios fw-bold'>ENVIOS AL INSTANTE<br />
                         <p className="pACLARACION-Envios fw-bold">(*REQUIERE COSTO ADICIONAL)</p></p>
