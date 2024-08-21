@@ -1,5 +1,7 @@
 import './servicios.css'
 import imgCard from '/images/RecursoNº2.jpg'
+import imgLapiceras from '/images/LAPICERAS.jpg'
+import imgCuadernillo from '/images/Cuadernillo.JPG'
 
 const Servicios = () => {
     return (
@@ -22,7 +24,7 @@ const Servicios = () => {
 
 
                     <div className="card">
-                    <img src={imgCard} class="card-img" alt="..." />
+                    <img src={imgCuadernillo} class="card-img" alt="..." />
                         <div className="card__content">
                             <p className="card__title">Card Title</p>
                             <p className="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -30,14 +32,7 @@ const Servicios = () => {
                     </div>
 
                     <div className="card">
-                    <img src={imgCard} class="card-img" alt="..." />
-                        <div className="card__content">
-                            <p className="card__title">Card Title</p>
-                            <p className="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                        </div>
-                    </div>
-                    <div className="card">
-                    <img src={imgCard} class="card-img" alt="..." />
+                    <img src={imgLapiceras} class="card-img" alt="..." />
                         <div className="card__content">
                             <p className="card__title">Card Title</p>
                             <p className="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
