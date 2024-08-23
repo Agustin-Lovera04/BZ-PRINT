@@ -1,7 +1,7 @@
 .envios-Container {
-  background-image: url('/images/RecursoNº2.png');
+  background-image: url('/images/RecursoEnvios.png');
   background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
-  /* background-position: bottom; */ /* Centra la imagen */
+  background-position: top; /* Centra la imagen */
   /* background-attachment: fixed; */ /* La imagen de fondo permanece fija al hacer scroll */
   background-repeat: no-repeat; /* La imagen no se repite */
   height: auto;
