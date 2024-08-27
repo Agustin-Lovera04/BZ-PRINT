@@ -46,6 +46,23 @@ const Main = () => {
                 window.removeEventListener('scroll', handleScroll);
             };
         }, []);
+
+        useEffect(() => {
+            const changeNavBarColor = () => {
+                const navbar = document.querySelector('.navbar-Container');
+                if (window.scrollY > 80) {
+                    navbar.style.backgroundColor = 'rgba(0, 0, 0, 0.800)';
+                } else {
+                    navbar.style.backgroundColor = 'rgba(255, 255, 255, 0.299)';
+                }
+            };
+        
+            window.addEventListener('scroll', changeNavBarColor);
+            return () => {
+                window.removeEventListener('scroll', changeNavBarColor);
+            };
+        }, []);
+        
     return (
         <>
             <div className="container-fluid" ref={mainRef}>

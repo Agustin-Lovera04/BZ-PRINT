@@ -42,7 +42,7 @@
 
 @media (max-width: 992px) {
     .navbar{
-        padding: 2%;
+        padding-right: 2%;
         justify-content: space-between !important;
         flex-direction: row !important;
         flex-wrap: nowrap !important;

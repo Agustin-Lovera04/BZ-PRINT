@@ -68,8 +68,12 @@
 }
 
 @media(max-width: 992px){
+  .pregFrec-Container{
+    padding: 2%;
+  }
   .titlePregFrec{
     font-size: 3rem;
+    padding-top: 2%;
   }
   .faq-item{
     width: 70%;

@@ -13,10 +13,10 @@
 }
 
 .navbar-Container {
-  background-color: rgba(255, 255, 255, 0.299);
   position: fixed;
   height: 18%;
   z-index: 1005;
+  transition: background-color 0.5s ease; /* Transición suave del fondo */
 }
 
 /* TITLE MAIN */
