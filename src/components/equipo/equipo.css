@@ -44,3 +44,13 @@
     height: 50%;
   }
 }
+
+@media (min-width: 2500px){
+  .titleClientes{
+    font-size: 6vw;
+    padding-top: 2%;
+  }
+  .carrousel-Container{
+    height: 50%;
+  }
+}

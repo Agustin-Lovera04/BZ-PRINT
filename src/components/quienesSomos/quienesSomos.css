@@ -73,3 +73,19 @@ margin: 1%;
 }
 
 }
+
+@media (min-width: 2500px){
+  .TitleQuienesSomos-Content, .TitleQuienesSomos2-Content{
+   font-size: 6vw;
+  }
+  .iframeQuienesSomos{
+    width: 30vw !important;
+    height: auto !important;
+  }
+  .pQuienesSomos{
+    font-size: 2vw;
+  }
+  .sec2QuienesSomos-Container{
+    padding-top: 2%;
+  }
+}

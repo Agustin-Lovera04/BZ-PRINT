@@ -3,3 +3,15 @@
 .moreLinks{
     padding-right: 3%;
 }
+
+@media (min-width: 2500px){
+   .copy{
+    font-size: 2rem;
+   }
+   .h5{
+    font-size: 3rem;
+   }
+   .ul{
+    font-size: 2rem;
+   }
+  }

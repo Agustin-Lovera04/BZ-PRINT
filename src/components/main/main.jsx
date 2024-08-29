@@ -87,7 +87,7 @@ const Main = () => {
                         <ul class="example-2">
                             <li class="icon-content">
                                 <a
-                                    href="https://www.instagram.com/"
+                                    href="https://www.instagram.com/bzprint_/"
                                     aria-label="Instagram"
                                     data-social="instagram"
                                 >
@@ -111,7 +111,7 @@ const Main = () => {
                             </li>
                             <li class="icon-content">
                                 <a
-                                    href="https://api.whatsapp.com/send?phone=+1234567890"
+                                    href="https://wa.me/543425260028"
                                     aria-label="WhatsApp"
                                     data-social="whatsapp"
                                 >

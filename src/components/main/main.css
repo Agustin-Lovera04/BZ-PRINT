@@ -17,6 +17,7 @@
   height: 18%;
   z-index: 1005;
   transition: background-color 0.5s ease; /* Transición suave del fondo */
+  background-color: rgba(255, 255, 255, 0.299); /* Color de fondo inicial */
 }
 
 /* TITLE MAIN */
@@ -183,5 +184,27 @@ ul {
   .example-2{
     flex-direction: row;
     padding: 0;
+  }
+}
+
+@media (min-width: 2500px){
+  .navbar-Container{
+    height: min-content;
+  }
+  .TitleMain1-Content, .TitleMain2-Content{
+    font-size: 7vw;
+  }
+
+  .example-2 .icon-content a {
+    width: 90px; /* Ajusta el tamaño del contenedor */
+    height: 90px;
+  }
+
+  .example-2 .icon-content a svg {
+    width: 70%; /* Ajusta el tamaño del ícono */
+    height: 70%;
+  }
+  .example-2 .icon-content .tooltip {
+    font-size: 2em;
   }
 }

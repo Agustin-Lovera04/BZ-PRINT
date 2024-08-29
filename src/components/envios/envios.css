@@ -92,3 +92,19 @@
     font-size: 1.5rem;
   }
 }
+@media (min-width: 2500px){
+  .p-Envios-Container{
+    min-height: 100%;
+    font-size: 4.5rem;
+  }
+  .subTitleEnvios{
+    font-size: 4.5rem;
+  }
+  .titleEnvios-Content{
+    font-size: 6vw;
+    margin: 3%;
+  }
+  .pACLARACION-Envios{
+    font-size: 1.2vw;
+  }
+}

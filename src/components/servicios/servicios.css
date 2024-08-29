@@ -142,3 +142,12 @@
     object-fit: cover;
   }
 }
+
+@media (min-width: 2500px){
+  .TitleServicios-Content{
+    font-size: 6vw;
+  }
+  .pServicios{
+    font-size: 2vw;
+  }
+}

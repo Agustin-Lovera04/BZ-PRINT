@@ -5,12 +5,12 @@ const Footer = () => {
         <footer className="bg-dark text-white container-fluid">
                 <div className="row">
                     <div className="col-md-4 text-center text-lg-left">
-                        <h5>Desarrollo</h5>  <hr />
-                        <p>Lovera Agustin, Full Stack Developer</p>
+                        <h5 className="h5" >Desarrollo</h5>  <hr />
+                        <p className='ul'>Lovera Agustin, Full Stack Developer</p>
                     </div>
                     <div className="col-md-4 text-center">
-                        <h5>RRSS</h5> <hr />
-                        <ul className="list-unstyled d-inline-block text-center">
+                        <h5 className="h5" >RRSS</h5> <hr />
+                        <ul className="list-unstyled d-inline-block text-center ul">
                             <li>
                                 <a href="https://agustin-lovera04.github.io/PortFolio_Lovera/" className="text-white" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-twitter"></i>PortFolio
@@ -29,8 +29,8 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="moreLinks col-md-4 text-center text-lg-end">
-                        <h5>Contacto</h5> <hr />
-                        <ul className="list-unstyled">
+                        <h5 className="h5" >Contacto</h5> <hr />
+                        <ul className="list-unstyled ul">
                             <li>
                                     <p>+54 (342) 4076088</p>
                             </li>
@@ -43,7 +43,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="row mt-3"><hr />
-                    <div className="col text-center">
+                    <div className="col text-center copy">
                         <p>&copy; 2024 LOVERA AGUSTIN. TODOS LOS DERECHOS RESERVADOS.</p>
                 </div>
             </div>

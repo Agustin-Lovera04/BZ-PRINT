@@ -10,21 +10,21 @@ const Contacto = () => {
                 <div className="mediosContacto-Container">
 
                     <div className="btnsContacto-Container col-12">
-                        <button className='btn-contact col-lg-5 col-7'>
+                        <a href='https://wa.me/543425260028' className='btn-contact col-lg-5 col-7'>
                             <img src={imgWhatsapp} className='imgBtnContacto' alt="" /> Envianos un WhatsApp
-                        </button>
+                        </a>
                     </div>
                     <div className="formConcto-Container col-12">
                         <form
-                            action="mailto:your-email@example.com?subject=CONSULTA%20SITIO%20WEB"
+                            action="mailto:bzprintsf@gmail.com?subject=CONSULTA%20SITIO%20WEB"
                             method="post"
                             encType="text/plain"
                             className='col-lg-5 col-7'
                         >
-                            <label htmlFor="NameUser" className='fw-bold text-light fs-4'>Ingrese su nombre:</label>
+                            <label htmlFor="NameUser" className='label fw-bold text-light fs-4'>Ingrese su nombre:</label>
                             <input type="text" id="Name" name="Nombre" required placeholder='Ingrese su nombre' />
 
-                            <label htmlFor="query" className='fw-bold text-light fs-4'>Consulta:</label>
+                            <label htmlFor="query" className='label fw-bold text-light fs-4'>Consulta:</label>
                             <textarea id="query" name="Consulta" rows="4" required placeholder='Detalle de su consulta' />
 
                             <button type="submit" className="btn-contact">Enviar</button>
