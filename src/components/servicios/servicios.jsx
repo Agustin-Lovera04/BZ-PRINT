@@ -18,7 +18,7 @@ const Servicios = () => {
                     </div>
 
 
-                    <div className="card">
+                    <div className="card" data-aos="flip-left" data-aos-duration="1500">
                     <img src={imgCuadernillo} class="card-img" alt="..." />
                         <div className="card__content">
                             <p className="card__title">CUADERNILLOS</p>
@@ -26,7 +26,7 @@ const Servicios = () => {
                         </div>
                     </div>
                     
-                    <div className="card">
+                    <div className="card" data-aos="flip-left" data-aos-duration="1500">
                     <img src={imgApuntes} class="card-img" alt="..." />
                         <div className="card__content">
                             <p className="card__title">APUNTES</p>
@@ -34,7 +34,7 @@ const Servicios = () => {
                         </div>
                     </div>
 
-                    <div className="card">
+                    <div className="card" data-aos="flip-left" data-aos-duration="1500">
                     <img src={imgLapiceras} class="card-img" alt="..." />
                         <div className="card__content">
                             <p className="card__title">ART. LIBRERIA</p>

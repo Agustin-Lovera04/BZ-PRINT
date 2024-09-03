@@ -62,11 +62,13 @@ const Main = () => {
                 window.removeEventListener('scroll', changeNavBarColor);
             };
         }, []);
+
+
         
     return (
         <>
             <div className="container-fluid" ref={mainRef}>
-                    <div className="navbar-Container col-12">
+                    <div className="navbar-Container col-12" data-aos="fade-up" data-aos-duration="1500">
                         <NavBar 
                         scrollToMain={() => scrollToRef(mainRef)}
                         scrollToQuienesSomos={() => scrollToRef(QuienesSomosRef)}
@@ -81,7 +83,7 @@ const Main = () => {
                 <div className='s1-Container'>
 
                     <div className="TitleMain-Container col-12">
-                        <span className='TitleMain2-Content fw-bold col-12'>"QUE TE DE GUSTO</span><span className='TitleMain1-Content fw-bold col-12'> ESTUDIAR"  </span>
+                        <span className='TitleMain2-Content fw-bold col-12' data-aos="fade-right" data-aos-duration="2000">"QUE TE DE GUSTO</span><span className='TitleMain1-Content fw-bold col-12'data-aos="fade-left" data-aos-duration="2000"> ESTUDIAR"  </span>
                     </div>
                     <div className="ButtonSocial-Container col-6">
                         <ul class="example-2">
